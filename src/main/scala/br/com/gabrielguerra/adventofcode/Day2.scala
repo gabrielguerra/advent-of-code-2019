@@ -3,7 +3,7 @@ package br.com.gabrielguerra.adventofcode
 import scala.io.Source
 import scala.util.control.Breaks._
 
-object DayTwo extends App {
+object Day2 extends App {
 
   val originalMemory = Source.fromResource("day_2_input.txt").getLines().flatMap(s => s.split(",")).map(s => s.toInt).toArray
 

@@ -4,7 +4,7 @@ import scala.annotation.tailrec
 import scala.io.Source
 
 
-object DayOne extends App {
+object Day1 extends App {
 
   def calculateFuel(mass: Int): Int = {
     mass / 3 - 2
